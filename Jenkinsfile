@@ -7,7 +7,7 @@ pipeline {
         stage('vcs') {
             steps {
                 git url: 'https://github.com/purna970/StudentCoursesRestAPI.git',
-                    branch: 'develop'
+                    branch: 'sprint_branch'
             }
         }
         stage('build') {
